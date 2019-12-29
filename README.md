@@ -4,7 +4,7 @@
 Othmane Aoussar - Sébastien Ducor - Eléna Dupuy - Romain Gea - Nusaïbah Ibrahimi - Eloïse Issert
 
 ## Introduction
-Dans le cadre de ce cours, nous allons expliquer l'algorithme YOLO qui se charge de localiser et de segmenter des objects.
+Dans le cadre du cours **Artificial Intelligence Frameworks**, nous allons vous présenter l'algorithme YOLO qui se charge de localiser et de segmenter des objets.
 
 ## Prérequis
 - [Python Tutorial](https://github.com/wikistat/Intro-Python)
@@ -12,7 +12,7 @@ Dans le cadre de ce cours, nous allons expliquer l'algorithme YOLO qui se charge
 - [Data Exploration and Clustering](https://github.com/wikistat/Exploration). 
 - [Machine Learning](https://github.com/wikistat/Apprentissage)
 - [High Dimensional & Deep Learning](https://github.com/wikistat/High-Dimensional-Deep-Learning)
-
+- [Artificial Intelligence Frameworks](https://github.com/wikistat/AI-Frameworks)
 
 ## Plan
 En tant que ***Data Scientist***, nous allons 
@@ -22,12 +22,12 @@ En tant que ***Data Scientist***, nous allons
 * partager le travail de manière reproductible (Git -  docker? , conda environment?).
 
 ## Détails 
-Notre projet sera centré sur l'étude de l'algorithme YOLO.
+Notre projet sera centré sur l'implémentation de l'algorithme YOLO.
 Dans le répertoire Git :
-* tout les codes (en python) seront à votre disponible pour pouvoir facilement reproduire les résultats
-* les instructions
-* une présentation de l'algorithme, des résultats
-* une bibliographie
+* tout les codes (en Python) seront disponibles pour reproduire facilement les résultats,
+* les instructions,
+* une présentation de l'algorithme, des résultats,
+* une bibliographie.
 
 
 
