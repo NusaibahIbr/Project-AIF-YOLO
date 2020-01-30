@@ -26,7 +26,7 @@ Notre projet sera centré sur l'implémentation de l'algorithme YOLO.
 Dans le répertoire Git :
 * tout les codes (en Python) seront disponibles pour reproduire facilement les résultats,
 * les instructions,
-* une présentation de l'algorithme, des résultats,
+* une présentation de l'algorithme, des résultats et des limites,
 * une bibliographie.
 
 
