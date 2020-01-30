@@ -13,6 +13,7 @@ Nous avons rendu notre travail reproductible pour permettre à d'autres utilisat
 Pour cela, il suffit de "clone" (ou download) le répertoire et d'éxecuter le fichier [YOLO.ipynb](https://github.com/NusaibahIbr/Project-AIF-YOLO/blob/master/Code/YOLO.ipynb). 
 
 **Fichier YOLO.ipynb**
+
 Dans le première partie du fichier notebook, vous allez installer OPENCV pour permettre de télécharger les images et les données nécessaires. Vous allez ensuite installer torchvision qui permet d'utiliser Darknet, un réseau de neurones profond et open source écrit par les créateurs de YOLO. Ensuite on importe les packages nécessaires à l'exécution, comme matplotlib.pyplot, cv2, les packages de utils, qui est un module contenant quelques fonctions d'aide.
 
 Dans la deuxième partie on télécharge les poids pré-entrainés avec la ligne de code !wget https://pjreddie.com/media/files/yolov3.weights puis on spécifie la localisation des fichiers qui vont nous être utiles. On a les fichiers contenant l'architecture du réseau de neuronnes (fichier cfg), des poids pré-entrainés (fichier weight) et les classes d'objets (fichier coco.names). 
