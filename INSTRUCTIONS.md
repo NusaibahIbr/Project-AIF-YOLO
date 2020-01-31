@@ -4,8 +4,8 @@ Nous avons choisi l'algorithme YOLOv3 (version 3) car il s'agit de l'un des meil
 
 **Better** - **Faster** - **Stronger** sont les trois adjectifs qui qualifient cet algorithme.
 
-Nous avons donc trouvé une version du code et essayer de le comprendre. 
-Nous n'avons pas entrainé le réseau de neurone sur un jeu de données d'entrainement car on avait déjà accès aux poids d'apprentissage sur le site officiel [YOLO: Real-Time Object Detection](https://pjreddie.com/darknet/yolo/).
+Nous avons trouvé une version du code et essayer de le comprendre. 
+Nous n'avons pas entrainé le réseau de neurones sur un jeu de données d'entrainement car on avait déjà accès aux poids d'apprentissage sur le site officiel [YOLO: Real-Time Object Detection](https://pjreddie.com/darknet/yolo/).
 
 Nous n'avons donc pas eu le besoin d'utiliser les outils GPU ou Cloud, car le temps d'exécution sur les données test étaient minimes (moins d'une seconde).
 
@@ -17,7 +17,7 @@ Pour cela, il suffit de "clone" (ou download) le répertoire et d'éxecuter le f
 
 Dans la première partie du fichier notebook, vous allez installer OPENCV pour permettre de télécharger les images et les données nécessaires. Vous allez ensuite installer torchvision qui permet d'utiliser Darknet, un réseau de neurones profond et open source écrit par les créateurs de YOLO. Ensuite, on importe les packages nécessaires à l'exécution, comme matplotlib.pyplot, cv2, les packages de utils, qui est un module contenant quelques fonctions d'aide.
 
-Dans la deuxième partie, on télécharge les poids pré-entrainés avec la ligne de code *!wget https://pjreddie.com/media/files/yolov3.weights* puis, on spécifie la localisation des fichiers qui vont nous être utiles. On a les fichiers contenant l'architecture du réseau de neuronnes (fichier cfg), des poids pré-entrainés (fichier weight) et les classes d'objets (fichier coco.names). 
+Dans la deuxième partie, on télécharge les poids pré-entrainés avec la ligne de code *!wget https://pjreddie.com/media/files/yolov3.weights* puis, on spécifie la localisation des fichiers qui vont nous être utiles. On a les fichiers contenant l'architecture du réseau de neurones (fichier cfg), des poids pré-entrainés (fichier weight) et les classes d'objets (fichier coco.names). 
 Ensuite, Darknet permet d'installer le réseau de neurones en utilisant l'architecture du fichier cfg et en chargeant les poids pré-entraînés et les classes d'objets avec les commandes load_weights() et load_class_names().
 
 La partie Loading and Resizing Our Images permet de convertir nos images dans les bonnes normes de couleur et de taille pour l'entrée du réseau de neurones. 
